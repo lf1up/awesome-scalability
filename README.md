@@ -6,7 +6,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 > Understand your problems: scalability problem (fast for a single user but slow under heavy load) or performance problem (slow for a single user) by reviewing some [design principles](#principle) and checking how [scalability](#scalability) and [performance](#performance) problems are solved at tech companies. The section of [intelligence](#intelligence) are created for those who work with data and machine learning at big (data) and deep (learning) scale.
 
 #### If your system goes down
-> "Even if you lose all one day, you can build all over again if you retain your calm!" - Thuan Pham, CTO of Uber. So, keep calm and mind the [availability](#availability) and [stability](#stability) matters! 
+> "Even if you lose all one day, you can build all over again if you retain your calm!" - Thuan Pham, former CTO of Uber. So, keep calm and mind the [availability](#availability) and [stability](#stability) matters! 
 
 #### If you are having a system design interview
 > Look at some [interview notes](#interview) and [real-world architectures with completed diagrams](#architecture) to get a comprehensive view before designing your system on whiteboard. You can check some [talks](#talk) of engineers from tech giants to know how they build, scale, and optimize their systems. There are some selected [books](#book) for you (most of them are free)! Good luck!
@@ -302,7 +302,8 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Logging and Aggregation at Quora](https://engineering.quora.com/Logging-and-Aggregation-at-Quora)
 	* [Collection and Analysis of Daemon Logs at Badoo](https://badoo.com/techblog/blog/2016/06/06/collection-and-analysis-of-daemon-logs-at-badoo/)
 	* [Log Parsing with Static Code Analysis at Palantir](https://medium.com/palantir/using-static-code-analysis-to-improve-log-parsing-18f0d1843965)		
-	* [Centralized Application Logging at eBay](https://tech.ebayinc.com/engineering/low-latency-and-high-throughput-cal-ingress/)	
+	* [Centralized Application Logging at eBay](https://tech.ebayinc.com/engineering/low-latency-and-high-throughput-cal-ingress/)
+	* [Enrich VPC Flow Logs at Hyper Scale to provide Network Insight at Netflix](https://netflixtechblog.com/hyper-scale-vpc-flow-logs-enrichment-to-provide-network-insight-e5f1db02910d)	
 	* [BookKeeper: Distributed Log Storage at Yahoo](https://yahooeng.tumblr.com/post/109908973316/bookkeeper-yahoos-distributed-log-storage-is)
 	* [LogDevice: Distributed Data Store for Logs at Facebook](https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/)
 	* [LogFeeder: Log Collection System at Yelp](https://engineeringblog.yelp.com/2018/03/introducing-logfeeder.html)
@@ -472,6 +473,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Continuous Integration Stack at Facebook](https://code.fb.com/web/rapid-release-at-massive-scale/)
 	* [Continuous Integration with Distributed Repositories and Dependencies at Netflix](https://medium.com/netflix-techblog/towards-true-continuous-integration-distributed-repositories-and-dependencies-2a2e3108c051)
 	* [Continuous Integration and Deployment with Bazel at Dropbox](https://blogs.dropbox.com/tech/2019/12/continuous-integration-and-deployment-with-bazel/)
+	* [Continuous Deployments at BuzzFeed](https://tech.buzzfeed.com/continuous-deployments-at-buzzfeed-d171f76c1ac4)
 	* [Screwdriver: Continuous Delivery Build System for Dynamic Infrastructure at Yahoo](https://yahooeng.tumblr.com/post/155765242061/open-sourcing-screwdriver-yahoos-continuous)
 	* [CI/CD at Betterment](https://www.betterment.com/resources/ci-cd-shortening-the-feedback-loop/)
 	* [CI/CD at Brainly](https://medium.com/engineering-brainly/ci-cd-at-scale-fdfb0f49e031)
@@ -598,6 +600,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Ad Delivery Network Performance Optimization with Flame Graphs at MindGeek](https://medium.com/mindgeek-engineering-blog/ad-delivery-network-performance-optimization-with-flame-graphs-bc550cf59cf7)
 	* [Predictive CPU isolation of containers at Netflix](https://medium.com/netflix-techblog/predictive-cpu-isolation-of-containers-at-netflix-91f014d856c7)
 	* [Cloud Jewels: Estimating kWh in the Cloud at Etsy](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
+	* [Unthrottled: Fixing CPU Limits in the Cloud (2 parts) at Indeed](https://engineering.indeedblog.com/blog/2019/12/unthrottled-fixing-cpu-limits-in-the-cloud/)
 * [Performance Optimization by Tuning Garbage Collection](https://confluence.atlassian.com/enterprise/garbage-collection-gc-tuning-guide-461504616.html)
 	* [Garbage Collection in Java Applications at LinkedIn](https://engineering.linkedin.com/garbage-collection/garbage-collection-optimization-high-throughput-and-low-latency-java-applications)
 	* [Garbage Collection in High-Throughput, Low-Latency Machine Learning Services at Adobe](https://medium.com/adobetech/engineering-high-throughput-low-latency-machine-learning-services-7d45edac0271)
@@ -674,11 +677,13 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Building a scalable data management system for computer vision tasks at Pinterest](https://medium.com/@Pinterest_Engineering/building-a-scalable-data-management-system-for-computer-vision-tasks-a6dee8f1c580)
 	* [Structured Data at Etsy](https://codeascraft.com/2019/07/31/an-introduction-to-structured-data-at-etsy/)
 	* [Scaling a Mature Data Pipeline - Managing Overhead at Airbnb](https://medium.com/airbnb-engineering/scaling-a-mature-data-pipeline-managing-overhead-f34835cbc866)
+	* [Spark Partitioning Strategies at Airbnb](https://medium.com/airbnb-engineering/on-spark-hive-and-small-files-an-in-depth-look-at-spark-partitioning-strategies-a9a364f908)
 * [Distributed Machine Learning](https://www.csie.ntu.edu.tw/~cjlin/talks/bigdata-bilbao.pdf)
 	* [Aroma: Using ML for Code Recommendation at Facebook](https://code.fb.com/developer-tools/aroma/)
 	* [Flyte: Cloud Native Machine Learning and Data Processing Platform at Lyft](https://eng.lyft.com/introducing-flyte-cloud-native-machine-learning-and-data-processing-platform-fb2bb3046a59)
 	* [Michelangelo: Machine Learning Platform at Uber](https://eng.uber.com/michelangelo/)
 	* [Scaling Michelangelo](https://eng.uber.com/scaling-michelangelo/)
+	* [Machine Learning Platform at Yelp](https://engineeringblog.yelp.com/2020/07/ML-platform-overview.html)
 	* [Horovod: Open Source Distributed Deep Learning Framework for TensorFlow at Uber](https://eng.uber.com/horovod/)
 	* [COTA: Improving Customer Care with NLP & Machine Learning at Uber](https://eng.uber.com/cota/)
 	* [Manifold: Model-Agnostic Visual Debugging Tool for Machine Learning at Uber](https://eng.uber.com/manifold/)	
@@ -749,6 +754,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 * [Architecture of Evernote](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
 * [Architecture of Chat Service (3 parts) at Riot Games](https://engineering.riotgames.com/news/chat-service-architecture-persistence)
 * [Architecture of League of Legends Client Update](https://technology.riotgames.com/news/architecture-league-client-update)
+* [Architecture of Ad Platform at Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/building-twitters-ad-platform-architecture-for-the-future.html)
 * [Basic Architecture of Slack](https://slack.engineering/how-slack-built-shared-channels-8d42c895b19f)
 * [Back-end at LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin)
 * [Back-end at Flickr](https://yahooeng.tumblr.com/post/157200523046/introducing-tripod-flickrs-backend-refactored)
@@ -770,6 +776,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 * [API Specification Workflow at WeWork](https://engineering.wework.com/our-api-specification-workflow-9337448d6ee6)
 * [Media Database at Netflix](https://medium.com/netflix-techblog/implementing-the-netflix-media-database-53b5a840b42a)
 * [Member Transaction History Architecture at Walmart](https://medium.com/walmartlabs/member-transaction-history-architecture-8b6e34b87c21)
+* [Sync Engine (2 parts) at Dropbox](https://dropbox.tech/infrastructure/-testing-our-new-sync-engine)
 * [Architectures of Finance and Banking Systems](https://www.sesameindia.com/images/core-banking-system-architecture)
 	* [Bank Backend at Monzo](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
 	* [Trading Platform for Scale at Wealthsimple](https://medium.com/@Wealthsimple/engineering-at-wealthsimple-reinventing-our-trading-platform-for-scale-17e332241b6c)
@@ -778,6 +785,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Tech Stack at TransferWise](http://tech.transferwise.com/the-transferwise-stack-heartbeat-of-our-little-revolution/)
 	* [Tech Stack at Addepar](https://medium.com/build-addepar/our-tech-stack-a4f55dab4b0d)
 	* [Avoiding Double Payments in a Distributed Payments System at Airbnb](https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb)
+	* [Risk Detection Infrastructure at Postmates](https://blog.postmates.com/risk-detection-infrastructure-postmates-ce79660850b9?gi=861c2a3a5657)
 
 ## Interview
 * [Designing Large-Scale Systems](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/)
@@ -885,4 +893,4 @@ An updated and organized reading list for illustrating the patterns of scalable,
 
 ## Donation
 
-[Binh Nguyen](https://sg.linkedin.com/in/binhnguyennus) creates and maintains this project. [Could you treat him a cake?](https://paypal.me/binhnguyennus) :cake: Thank you :heart::four_leaf_clover:
+Roses are red. Violets are blue. [Binh Nguyen](https://sg.linkedin.com/in/binhnguyennus) likes sweet. [Treat him a tiramisu?](https://paypal.me/binhnguyennus) :cake:
